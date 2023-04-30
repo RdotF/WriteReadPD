@@ -7,4 +7,13 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Compile Update="Reader.cs">
+        <DependentUpon>Model.cs</DependentUpon>
+      </Compile>
+      <Compile Update="Writer.cs">
+        <DependentUpon>Model.cs</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
 </Project>

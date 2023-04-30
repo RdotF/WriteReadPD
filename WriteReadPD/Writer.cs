@@ -1,23 +1,24 @@
 ﻿namespace PD1;
 
-public class Writer
+
+class Writer
 {
-    static string GetMessg()
+    public void WriteFile(string newMessg)
     {
-        string messg = Console.ReadLine();
-        return messg;
-    }
 
-
-    internal void WriteFile()
-    {
-        Console.WriteLine("Write in File:");
-        PD1.Program path = new Program();
         
-        using (StreamWriter writer = new StreamWriter(path.GetPath(), true))
+        Model path = new Model();
+        try
         {
-            writer.WriteLine(GetMessg());
+            using (StreamWriter writer = new StreamWriter(path.GetPath(), true))
+                {
+                    writer.WriteLine(newMessg);
+                }
         }
-        
+        catch (Exception e)
+        {
+            Console.WriteLine("ERROR: couldn't write in file");
+            Console.WriteLine(e.Message);
+        }
     }
 }

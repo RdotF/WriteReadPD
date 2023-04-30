@@ -1,11 +1,12 @@
-﻿namespace PD1;
+﻿
+namespace PD1;
 
-public class Reader
+class Reader
 {
-    internal void ReadFile()
+    public void ReadFile()
     { 
-        Console.WriteLine("Read from File:");
-        PD1.Program path = new Program();
+        
+        Model path = new Model();
         try
         {
             using (StreamReader sr = File.OpenText(path.GetPath()))
