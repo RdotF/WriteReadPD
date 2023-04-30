@@ -3,37 +3,32 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace PD1
-{   
-    class Program
-    {
-        public string GetPath()
-        {
-            string workingDirectory = Environment.CurrentDirectory;
-            string projectDirectory = Directory.GetParent(workingDirectory).Parent.Parent.FullName + "\\test.txt";
-      
-            return projectDirectory.Replace("\\", "/");
-        } 
 
-        public string AskContinue()
-        {
-            Console.WriteLine("Do you want to continue writing in file?[Y/n]");
-            return Console.ReadLine();
-        }
+namespace PD1
+{
+    public class Program
+    {
+
         static void Main()
-        {
-          
+        {   
+            Interaction interaction = new Interaction();
+            Model _model = new Model();
             Writer wrFile = new Writer();
             Reader rdFile = new Reader();
-            Program askUser = new Program();
             string ans = "";
-            
+           
             do
-            {    
-                wrFile.WriteFile();
+            {
+                
+                _model.SendMessgWrite();
+                wrFile.WriteFile(interaction.GetMessg());
+                _model.SendMessgRead();
                 rdFile.ReadFile();;
-                ans = askUser.AskContinue();
+                ans = interaction.AskContinue();
+
             } while (ans == "y" || ans == "Y");
         }
     }
+    
+   
 }
