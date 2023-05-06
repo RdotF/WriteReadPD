@@ -4,21 +4,10 @@
     <projectFile>WriteReadPD/WriteReadPD.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e4cd63c-2c8c-4ea8-92f6-842586d3295e" name="Changes" comment="">
+    <list default="true" id="2e4cd63c-2c8c-4ea8-92f6-842586d3295e" name="Changes" comment="added interfaces">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WriteReadPD/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WriteReadPD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WriteReadPD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/Interaction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/Interaction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WriteReadPD/Interaction.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/WriteReadPD/Model.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/Reader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/Reader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/Writer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/Writer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/bin/Debug/net6.0/WriteReadPD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/bin/Debug/net6.0/WriteReadPD.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/bin/Debug/net6.0/WriteReadPD.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/bin/Debug/net6.0/WriteReadPD.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/obj/Debug/net6.0/WriteReadPD.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/obj/Debug/net6.0/WriteReadPD.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/obj/Debug/net6.0/WriteReadPD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/obj/Debug/net6.0/WriteReadPD.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/obj/Debug/net6.0/WriteReadPD.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/obj/Debug/net6.0/WriteReadPD.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/obj/Debug/net6.0/ref/WriteReadPD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/obj/Debug/net6.0/ref/WriteReadPD.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/obj/Debug/net6.0/refint/WriteReadPD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/obj/Debug/net6.0/refint/WriteReadPD.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +23,10 @@
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="9997ba79-f346-47a6-80bd-ad048aef1df6" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/User/RiderProjects/WriteReadPD/WriteReadPD/Reader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/User/RiderProjects/WriteReadPD/WriteReadPD/Writer.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -89,7 +82,7 @@
       <workItem from="1682838974373" duration="8207000" />
       <workItem from="1683263146376" duration="3612000" />
       <workItem from="1683311116805" duration="6108000" />
-      <workItem from="1683360975819" duration="5292000" />
+      <workItem from="1683360975819" duration="5600000" />
     </task>
     <task id="LOCAL-00001" summary="start: empty main">
       <created>1682525732139</created>
@@ -119,7 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682857756828</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added interfaces">
+      <created>1683367656187</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683367656187</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added interfaces">
+      <created>1683367674181</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683367674181</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +163,7 @@
     <MESSAGE value="finished project, added reader &amp; writer" />
     <MESSAGE value="added structure mvc" />
     <MESSAGE value="changed program.cs" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed program.cs" />
+    <MESSAGE value="added interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="added interfaces" />
   </component>
 </project>
