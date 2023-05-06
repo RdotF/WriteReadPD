@@ -2,31 +2,26 @@
 using System.IO;
 using System.Linq;
 using System.Text;
+using PD1.Interfaces;
 
 
 namespace PD1
 {
     public class Program
     {
+       static void Main()
+        {
+            AwaitComm awaitComm = new AwaitComm();
+            ServiceCommExec execute = new ServiceCommExec();
 
-        static void Main()
-        {   
-            Interaction interaction = new Interaction();
-            Model _model = new Model();
-            Writer wrFile = new Writer();
-            Reader rdFile = new Reader();
-            string ans = "";
+            string comm = "";
            
-            do
+            while(true)
             {
+                comm = awaitComm.AskCommand();
+                execute.ReceiveCommand(comm);
                 
-                _model.SendMessgWrite();
-                wrFile.WriteFile(interaction.GetMessg());
-                _model.SendMessgRead();
-                rdFile.ReadFile();;
-                ans = interaction.AskContinue();
-
-            } while (ans == "y" || ans == "Y");
+            } 
         }
     }
     

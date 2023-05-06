@@ -1,24 +1,33 @@
-﻿namespace PD1;
+﻿using PD1.Interfaces;
+
+namespace PD1;
 
 
-class Writer
+class Writer : ICommand, IWrite
 {
-    public void WriteFile(string newMessg)
-    {
 
-        
-        Model path = new Model();
-        try
+    public void ExecuteCommand()
+    {
+        ServiceCommExec messg = new ServiceCommExec();
+        Console.WriteLine("\nWrite in File:");
+        WriteFile(messg.GetMessg());
+    }
+
+    public void WriteFile(string newMessg)
         {
-            using (StreamWriter writer = new StreamWriter(path.GetPath(), true))
+
+            ServiceCommExec path = new ServiceCommExec();
+            try
+            {
+                using (StreamWriter writer = new StreamWriter(path.GetPath(), true))
                 {
                     writer.WriteLine(newMessg);
                 }
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine("ERROR: couldn't write in file");
-            Console.WriteLine(e.Message);
-        }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("ERROR: couldn't write in file");
+            }
+        
     }
 }
