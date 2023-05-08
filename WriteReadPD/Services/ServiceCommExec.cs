@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using PD1.Interfaces;
 namespace PD1;
-class ServiceCommExec
+public class ServiceCommExec
 {
 
     public string GetPath()
@@ -17,8 +17,11 @@ class ServiceCommExec
     }
    
 
+    
     public void ReceiveCommand(string comm)
     {
+       
+    
         Dictionary<string, ICommand> parse = new Dictionary<string, ICommand>()
         {
             ["/read"] = new Reader(),
@@ -31,7 +34,13 @@ class ServiceCommExec
         }
         else
         {
-            parse[comm].ExecuteCommand();
+             RunCommand(parse[comm]); 
         }
+    }
+
+    private void RunCommand(ICommand comm)
+    {
+        Command runComm = new Command(comm);
+        runComm.Execute();
     }
 };

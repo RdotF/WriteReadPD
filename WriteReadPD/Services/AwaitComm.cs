@@ -1,6 +1,6 @@
 ﻿namespace PD1;
 
-class AwaitComm
+public class AwaitComm
 {
     public string AskCommand()
     {   Console.WriteLine("\n---------------------------------------------");

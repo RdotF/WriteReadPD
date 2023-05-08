@@ -2,5 +2,5 @@
 
 public interface IRead
 {
-    void ReadFile();
+    public void ReadFile();
 }

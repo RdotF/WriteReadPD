@@ -2,5 +2,5 @@
 
 public interface IWrite
 {
-    void WriteFile(string str);
+   public void WriteFile(string str);
 }
