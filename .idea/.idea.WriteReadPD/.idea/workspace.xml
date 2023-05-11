@@ -4,26 +4,12 @@
     <projectFile>WriteReadPD/WriteReadPD.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa1a2f64-d1a0-44b6-96fb-4adab393d48b" name="Changes" comment="">
+    <list default="true" id="fa1a2f64-d1a0-44b6-96fb-4adab393d48b" name="Changes" comment="added async">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WriteReadPD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WriteReadPD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/Commands/ExitProgramm.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/Commands/Interfaces/ICommand.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/Commands/Interfaces/IRead.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/Commands/Interfaces/IWrite.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/Commands/Reader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/Commands/Writer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/Services/AwaitComm.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/Services/Command.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/Services/ServiceCommExec.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/WriteReadPD/bin/Debug/net6.0/WriteReadPD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/bin/Debug/net6.0/WriteReadPD.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WriteReadPD/bin/Debug/net6.0/WriteReadPD.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/bin/Debug/net6.0/WriteReadPD.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/obj/Debug/net6.0/WriteReadPD.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/obj/Debug/net6.0/WriteReadPD.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WriteReadPD/obj/Debug/net6.0/WriteReadPD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/obj/Debug/net6.0/WriteReadPD.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WriteReadPD/obj/Debug/net6.0/WriteReadPD.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/obj/Debug/net6.0/WriteReadPD.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/obj/Debug/net6.0/ref/WriteReadPD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/obj/Debug/net6.0/ref/WriteReadPD.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/obj/Debug/net6.0/refint/WriteReadPD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/obj/Debug/net6.0/refint/WriteReadPD.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683368061803</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added async">
+      <created>1683800850048</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683800850048</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +180,7 @@
     <MESSAGE value="added structure mvc" />
     <MESSAGE value="changed program.cs" />
     <MESSAGE value="added interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="added interfaces" />
+    <MESSAGE value="added async" />
+    <option name="LAST_COMMIT_MESSAGE" value="added async" />
   </component>
 </project>
