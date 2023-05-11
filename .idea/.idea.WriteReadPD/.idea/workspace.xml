@@ -4,19 +4,18 @@
     <projectFile>WriteReadPD/WriteReadPD.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e4cd63c-2c8c-4ea8-92f6-842586d3295e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/WriteReadPD/Commands/Reader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WriteReadPD/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="fa1a2f64-d1a0-44b6-96fb-4adab393d48b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WriteReadPD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WriteReadPD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/AwaitComm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/Services/AwaitComm.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/ExitProgramm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/Commands/ExitProgramm.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/Interfaces/ICommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/Commands/Interfaces/ICommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/Interfaces/IRead.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/Commands/Interfaces/IRead.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/Interfaces/IWrite.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/Commands/Interfaces/IWrite.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/Reader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/ServiceCommExec.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/Services/ServiceCommExec.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/WriteReadPD.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/WriteReadPD.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteReadPD/Writer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/Commands/Writer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WriteReadPD/Commands/ExitProgramm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WriteReadPD/Commands/Interfaces/ICommand.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WriteReadPD/Commands/Interfaces/IRead.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WriteReadPD/Commands/Interfaces/IWrite.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WriteReadPD/Commands/Reader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WriteReadPD/Commands/Writer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WriteReadPD/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WriteReadPD/Services/AwaitComm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WriteReadPD/Services/Command.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WriteReadPD/Services/ServiceCommExec.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/WriteReadPD/bin/Debug/net6.0/WriteReadPD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/bin/Debug/net6.0/WriteReadPD.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WriteReadPD/bin/Debug/net6.0/WriteReadPD.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/bin/Debug/net6.0/WriteReadPD.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WriteReadPD/obj/Debug/net6.0/WriteReadPD.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/obj/Debug/net6.0/WriteReadPD.csproj.CoreCompileInputs.cache" afterDir="false" />
@@ -24,6 +23,7 @@
       <change beforePath="$PROJECT_DIR$/WriteReadPD/obj/Debug/net6.0/WriteReadPD.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/obj/Debug/net6.0/WriteReadPD.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WriteReadPD/obj/Debug/net6.0/ref/WriteReadPD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/obj/Debug/net6.0/ref/WriteReadPD.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WriteReadPD/obj/Debug/net6.0/refint/WriteReadPD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/obj/Debug/net6.0/refint/WriteReadPD.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WriteReadPD/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/WriteReadPD/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +39,9 @@
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="9997ba79-f346-47a6-80bd-ad048aef1df6" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/WriteReadPD/Infrastructure/Services/Writer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

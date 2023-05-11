@@ -9,17 +9,17 @@ namespace PD1
 {
     public class Program
     {
-       static void Main()
+        static void Main()
         {
-            AwaitComm awaitComm = new AwaitComm();
-            ServiceCommExec execute = new ServiceCommExec();
+            CommmandRequester commanRequester = new CommmandRequester();
+            CommandReciever commandReciever = new CommandReciever();
 
             string comm = "";
-           
+            ConsoleStartMessage.StartMessage();
             while(true)
             {
-                comm = awaitComm.AskCommand();
-                execute.ReceiveCommand(comm);
+                comm = commanRequester.AskCommand();
+                commandReciever.ReceiveCommand(comm);
                 
             } 
         }
